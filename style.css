@@ -1,6 +1,5 @@
 body {
     text-align: center;
-    background-color: white;
 }
 
 ul {
@@ -28,7 +27,7 @@ main {
     gap: 30px;
     padding: 50px;
     margin: 50px;
-    background-color: pink;
+    background-color: white;
     max-width: 1200px;
 
 }
@@ -36,7 +35,7 @@ main {
 main section {
     flex: 2;
     min-width: 400px;
-    border: 2px solid green;
+    border: 2px solid black;
     padding: 20px;
 }
 
@@ -73,14 +72,35 @@ main section {
 @media (max-width: 600px) {
     h1 {
         font-size: 100px;
-        color: seagreen;
+        color: white;
     }
 }
 
 @media (max-width: 768px) {
     h2 {
         font-size: 48px;
-        color: blue;
-        transition: color 0.5s ease;
+        color: white;
     }
+}
+
+nav a {
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    color: white;
+}
+
+button {
+    transition: background-color 0.1s ease;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 20px;
+
+}
+
+button:hover {
+    background-color: pink;
 }
