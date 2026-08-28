@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+
+}
+
+main section {
+    flex: 2;
+    min-width: 400px;
+    border: 2px solid green;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#services {
+    padding: 0 50px;
+}
