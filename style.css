@@ -79,7 +79,7 @@ main section {
 
 @media (max-width: 768px) {
     h2 {
-        font-size: 100px;
-        color: seagreen;
+        font-size: 48px;
+        color: blue;
     }
 }
