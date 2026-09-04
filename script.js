@@ -12,15 +12,15 @@ console.log(`Number: ${number}`);
 console.log(`Address: ${address}`);
 console.log(67);
 
+
 function greet(name) {
-    return `${name}`;
+    if (Array.isArray(name)) {
+        name = name.join(", ");
+    }
+    return `${greetings} sa emu, ${name}`;
 }
 
-console.log(greet("Ma ayong aga ", "mycca"));
+console.log(greet("Ma ayong aga ", ["mycca", "Bai", "Soy"]));
 
-function sum(num1, num2) {
-    return num1 + num2;
 
-}
 
-console.log("1 + 1 =" + sum(1, 1));
