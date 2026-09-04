@@ -33,7 +33,7 @@ main {
 main section {
     flex: 1;
     min-width: 280px;
-    border: 2px solid black;
+    border: 2px solid rgb(18, 18, 19);
     padding: 20px;
 
 }
@@ -70,7 +70,7 @@ form {
     @media(max-width: 600px) {
         h1 {
             font-size: 100px;
-            color: rgb(209, 39, 39);
+            color: red;
         }
     }
 }
@@ -78,7 +78,7 @@ form {
 @media(max-width: 768px) {
     h2 {
         font-size: 90px;
-        color: rgb(19, 18, 18);
+        color: blue;
 
     }
 }
@@ -89,7 +89,7 @@ nav a {
 }
 
 nav a:hover {
-    color: red;
+    color: rgb(233, 4, 42);
 }
 
 button {
@@ -103,7 +103,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(247, 163, 177);
+    background-color: pink;
 
 
 }
