@@ -24,7 +24,10 @@ function greet(name) {
 console.log(greet("Ma ayong aga ", ["mycca", "Bai", "Soy", "Erp"]));
 
 const heading = document.querySelector("h1");
-console.log(heading.textContent = "Cesar");
+heading.textContent = "Cesar";
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
