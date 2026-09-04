@@ -12,3 +12,8 @@ console.log(`Number: ${number}`);
 console.log(`Address: ${address}`);
 console.log(67);
 
+function greet(name) {
+    return `${name}`;
+}
+
+console.log(greet("Ma ayong aga sa imo") + "function.");
