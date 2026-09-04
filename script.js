@@ -3,6 +3,7 @@ console.log("From script.js file.");
 
 const myName = "mycca";
 let age = 21;
+age = 20;
 let number = 995440209;
 const address = "Miraflores";
 let number1 = 67;
@@ -27,7 +28,7 @@ const heading = document.querySelector("h1");
 heading.textContent = "Cesar";
 heading.style.color = "purple";
 heading.style.backgroundColor = "yellow";
-heading.style.fontSize = "50px";
+heading.style.fontSize = "100px";
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
