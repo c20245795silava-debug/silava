@@ -5,6 +5,7 @@ const myName = "mycca";
 let age = 21;
 let number = 995440209;
 const address = "Miraflores";
+let number1 = 67;
 
 console.log(`My name is ${myName}, ${age} years old.`);
 console.log(`Age: ${age}`);
@@ -17,10 +18,17 @@ function greet(name) {
     if (Array.isArray(name)) {
         name = name.join(", ");
     }
-    return `${greetings} sa emu, ${name}`;
+    return `${greetings} sa enyu ${name}`;
 }
 
 console.log(greet("Ma ayong aga ", ["mycca", "Bai", "Soy", "Erp"]));
 
+const heading = document.querySelector("h1");
+console.log(heading.textContent = "Your father's name");
 
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading);
+
+const myServicesHeading = document.querySelector("#services h2");
+console.log(myServicesHeading);
 
