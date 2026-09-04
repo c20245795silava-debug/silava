@@ -38,6 +38,21 @@ heading.addEventListener("click", function () {
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
-const myServicesHeading = document.querySelector("#services h2");
-console.log(myServicesHeading);
+const projectsHeading = document.querySelector("#projects h2");
+console.log(projectsHeading);
 
+const togglebutton = document.querySelector("#switch");
+const body = document.querySelector("body");
+let issOff = false;
+
+toggleButton.addEventListener("click", function () {
+    isOff = !isOff;
+
+    if (isOff) {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+    } else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+    }
+});
