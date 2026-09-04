@@ -16,4 +16,11 @@ function greet(name) {
     return `${name}`;
 }
 
-console.log(greet("Ma ayong aga sa imo") + "function.");
+console.log(greet("Ma ayong aga ", "mycca"));
+
+function sum(num1, num2) {
+    return num1 + num2;
+
+}
+
+console.log("1 + 1 =" + sum(1, 1));
