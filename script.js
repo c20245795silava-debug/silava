@@ -6,9 +6,8 @@ let age = 21;
 age = 20;
 let number = 995440209;
 const address = "Miraflores";
-let number1 = 67;
 
-console.log(`My name is ${myName}, ${age} years old.`);
+console.log(`My name is ${myName}`);
 console.log(`Age: ${age}`);
 console.log(`Number: ${number}`);
 console.log(`Address: ${address}`);
@@ -29,7 +28,12 @@ heading.textContent = "Cesar";
 heading.style.color = "purple";
 heading.style.backgroundColor = "yellow";
 heading.style.fontSize = "100px";
-console.log(heading);
+console.log(heading.textContent);
+
+heading.addEventListener("click", function () {
+    heading.style.color = "red";
+    console.log("Heading was clicked.");
+})
 
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
