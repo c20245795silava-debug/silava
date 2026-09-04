@@ -27,6 +27,7 @@ const heading = document.querySelector("h1");
 heading.textContent = "Cesar";
 heading.style.color = "purple";
 heading.style.backgroundColor = "yellow";
+heading.style.fontSize = "50px";
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
