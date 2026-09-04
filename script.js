@@ -20,7 +20,7 @@ function greet(name) {
     return `${greetings} sa emu, ${name}`;
 }
 
-console.log(greet("Ma ayong aga ", ["mycca", "Bai", "Soy"]));
+console.log(greet("Ma ayong aga ", ["mycca", "Bai", "Soy", "Erp"]));
 
 
 
