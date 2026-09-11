@@ -98,3 +98,7 @@ button {
 button:hover {
     background-color: pink;
 }
+
+#projects {
+    background-color: orange;
+}
