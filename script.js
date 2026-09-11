@@ -20,7 +20,7 @@ function greet(greetings, names = []) {
     return `${greetings} sa enyu ${names}`;
 }
 
-console.log(greet("Ma ayong aga ", ["mycca", "Bai", "Soy", "Erp"]));
+console.log(greet("Ma ayong aga", ["mycca", "Bai", "Soy", "Erp"]));
 
 const heading = document.querySelector("h1");
 heading.textContent = "Cesar Silava ";
@@ -31,7 +31,7 @@ console.log(heading);
 
 heading.addEventListener("click", function () {
     heading.style.color = "red";
-    console.log("Heading was clicked.");
+    console.log("Heading was clicked!");
 });
 
 const contactHeading = document.querySelector("#contact h2");
@@ -55,3 +55,5 @@ togglebutton.addEventListener("click", function () {
         body.style.color = "black";
     }
 });
+
+
