@@ -67,14 +67,14 @@ form {
 
     h1 {
         font-size: 100px;
-        color: red;
+        color: green;
     }
 }
 
 @media (max-width: 768px) {
     h2 {
         font-size: 48px;
-        color: blue;
+        color: hotpink;
     }
 }
 
@@ -97,5 +97,4 @@ button {
 
 button:hover {
     background-color: pink;
-    color: black;
 }
