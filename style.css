@@ -96,6 +96,5 @@ button {
 }
 
 button:hover {
-    background-color: pink;
-    color: black;
+    background-color: hotpink;
 }
